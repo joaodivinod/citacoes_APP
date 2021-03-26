@@ -2,7 +2,9 @@
 	<div id="app">
         <button @click="componente = 'Citacoes'">Citacoes</button>
         <button @click="componente = 'Sobre'">Sobre</button>
-		<componente :is="componente" />
+		<keep-alive>
+            <componente :is="componente" />
+        </keep-alive>
 	</div>
 </template>
 
