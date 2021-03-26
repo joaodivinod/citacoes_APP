@@ -19,4 +19,7 @@ export default {
         padding: 25px;
         max-width: 450px;
     }
+    .autor{
+
+    }
 </style>
